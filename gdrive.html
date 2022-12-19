@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IP Notes</title>
+    <style>
+      .links a {
+        font-size: 34px;
+      }
+      .heading {
+        color: red;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Image Processing Notes</h1>
+    </div>
+
+    <div class="links">
+      <a
+        href="https://drive.google.com/file/d/1Pp8toe5fYp8Yba9GblMrgpk76IHEMDd4/view"
+        target="blank"
+        >Mod 1</a
+      >
+      <div>
+        <a
+          href="https://drive.google.com/file/d/1PoRP1RdneNMSROvgs1YcPP4SKDkZyM6g/view"
+          target="_blank"
+          >Mod 2</a
+        >
+      </div>
+      <div>
+        <a
+          href="https://drive.google.com/file/d/1M7d_SzT4_qZhZ6lTt7rQqKENe4KmjH4n/view"
+          target="_blank"
+          >Mod 3,4,5</a
+        >
+      </div>
+    </div>
+  </body>
+  <script>
+    const headclk = document.querySelector(".heading");
+    headclk.addEventListener("click", () => {
+      document.body.innerHTML = `<h1>Banda Patha padhe</h1>`;
+    });
+  </script>
+</html>
